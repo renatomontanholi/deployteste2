@@ -2,6 +2,10 @@
   "id": "nodehog",
   "command": ["npm", "run", "start"],
   "canAutoscale": true,
+  "autoscale": {
+    "cpu": 20,
+    "memory": 20
+  },
   "memory": 512,
   "cpu": 1
 }
