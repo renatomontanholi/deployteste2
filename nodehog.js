@@ -50,6 +50,7 @@ class NodeHog {
     
     while (now - start < this.lifespan) {
       acc += Math.random() * Math.random();
+      console.log('xablau');
       logger();
       now = Date.now();
     }
