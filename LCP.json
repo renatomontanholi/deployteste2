@@ -1,5 +1,5 @@
 {
-  "id": "nodehog2",
+  "id": "nodehog",
   "command": ["npm", "run", "start"],
   "readinessProbe": {
     "httpGet": {
@@ -13,6 +13,6 @@
       "port": 80
     }
   },
-  "memory": 256,	
+  "memory": 16,	
   "cpu": 1
 }
