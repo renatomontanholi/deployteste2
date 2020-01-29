@@ -1,5 +1,5 @@
 {
-  "id": "nodehog",
+  "id": "nodehog2",
   "command": ["npm", "run", "start"],
   "readinessProbe": {
     "httpGet": {
